@@ -110,7 +110,16 @@ function generatecv(){
 
    document.getElementById('ext').innerHTML=str2;
 
+//code for profilepic
+  let file = document.getElementById('imgFeild').files[0];
 
+  let reader = new FileReader();
+  reader.readAsDataURL(file);
+
+  //set img to template
+  reader.onloadend = function(){
+  document.getElementById('imgT').src = reader.result;
+  };
 
    document.getElementById('cv-form').style.display='none';
    document.getElementById('cv-template').style.display='block';

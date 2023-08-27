@@ -1,0 +1,48 @@
+*{
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+   
+    background: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+input[type="text"],#addressFeild,#objectiveFeild,#wFeild,#acFeild,.form-control{
+    border: 1px solid black;
+}
+textarea{
+    border: 1px solid black;
+}
+label{
+    font-size: 19px;
+}
+/* #cv-form{
+    display: none;
+} */
+
+.myimg{
+    border: 1px solid rgb(27, 24, 24);
+    border-radius: 50%;
+    width: 200px;
+}
+.background{
+    background-color: rgb(177, 215, 236) ; 
+}
+.link{
+    color:black;
+}
+#cv-template{
+    display: none;
+}
+
